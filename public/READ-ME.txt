@@ -1,6 +1,6 @@
-  =>  Template Name    : Logistica - Shipping Company Website Template
+  =>  Template Name    : CarServ - Car Repair HTML Template
 
-  =>  Template Link    : https://htmlcodex.com/shipping-company-website-template
+  =>  Template Link    : https://htmlcodex.com/car-repair-html-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
