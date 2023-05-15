@@ -17,7 +17,7 @@
     <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/barlow-semibold.woff2">
     <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/barlow-700.woff2">
 
-    <style>
+     <style>
         @font-face {
             font-family: 'Barlow';
             font-style: normal;
@@ -52,8 +52,8 @@
     </style>
 
     <link rel="stylesheet" href="./fontawesome-free-5.10.0-web/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+     
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -145,7 +145,10 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-bg-1.jpg" alt="Image">
+                    <picture>
+                        <source media="(max-width:650px)" srcset="./img/carousel-bg-mb-1.jpg">
+                        <img src="./img/carousel-bg-1.jpg" alt="Flowers" style="width:auto;">
+                      </picture>
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -165,7 +168,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="lozad w-100" data-src="img/carousel-bg-2.jpg" alt="Image">
+                    <picture>
+                        <source class='lozad' media="(max-width:650px)" data-srcset="./img/carousel-bg-mb-2.jpg">
+                        <img class="lozad" data-src="./img/carousel-bg-2.jpg" alt="Flowers" style="width:auto;">
+                      </picture>
                     <div class="carousel-caption d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -723,8 +729,8 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/lozad.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
