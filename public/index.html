@@ -12,13 +12,47 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="./css/fonts.css" rel="stylesheet">
+    <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/ubuntu-400.woff2">
+    <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/ubuntu-500.woff2">
+    <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/barlow-semibold.woff2">
+    <link as="font" crossorigin="" rel="preload" type="font/woff2" href="./fonts/barlow-700.woff2">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="./css/font-awesome.css" rel="stylesheet">
-    <link href="./css/boostrap-icon.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(./fonts/barlow-semibold.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(./fonts/barlow-700.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(./fonts/ubuntu-400.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url(./fonts/ubuntu-500.woff2) format('woff2');
+        }
+    </style>
+
+    <link rel="stylesheet" href="./fontawesome-free-5.10.0-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
